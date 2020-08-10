@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="36454" started-at="2020-08-10T10:27:18 IST" finished-at="2020-08-10T10:27:55 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="36454" started-at="2020-08-10T10:27:18 IST" finished-at="2020-08-10T10:27:55 IST">
+      <class name="com.Testlog4j.Test1">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:com.Testlog4j.Test1@10bbd20a]" name="launchbrowser" is-config="true" duration-ms="26165" started-at="2020-08-10T10:27:18 IST" finished-at="2020-08-10T10:27:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="start()[pri:1, instance:com.Testlog4j.Test1@10bbd20a]" name="start" duration-ms="9396" started-at="2020-08-10T10:27:45 IST" finished-at="2020-08-10T10:27:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="list()[pri:2, instance:com.Testlog4j.Test1@10bbd20a]" name="list" duration-ms="705" started-at="2020-08-10T10:27:54 IST" depends-on-methods="com.Testlog4j.Test1.start" finished-at="2020-08-10T10:27:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- list -->
+      </class> <!-- com.Testlog4j.Test1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
