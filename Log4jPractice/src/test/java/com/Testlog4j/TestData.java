@@ -4,7 +4,9 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -32,6 +34,8 @@ public class TestData
 	 driver.findElement(By.name("username")).sendKeys("admin");
 	 driver.findElement(By.name("pwd")).sendKeys("manager");
 	 Thread.sleep(2000);
-	 driver.findElement(By.xpath("//a[text()='Login']")).click();
+	 WebElement login = driver.findElement(By.xpath("//a[text()='Login']"));
+	 login.click();
+	 Assert.assertTrue(login.isSelected(),"Showing the Boolean option::");
  }
 }

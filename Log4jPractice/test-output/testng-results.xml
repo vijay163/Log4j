@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="36454" started-at="2020-08-10T10:27:18 IST" finished-at="2020-08-10T10:27:55 IST">
+  <suite name="Default suite" duration-ms="68540" started-at="2020-09-18T16:49:04 IST" finished-at="2020-09-18T16:50:12 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="36454" started-at="2020-08-10T10:27:18 IST" finished-at="2020-08-10T10:27:55 IST">
+    <test name="Default test" duration-ms="68540" started-at="2020-09-18T16:49:04 IST" finished-at="2020-09-18T16:50:12 IST">
       <class name="com.Testlog4j.Test1">
-        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:com.Testlog4j.Test1@10bbd20a]" name="launchbrowser" is-config="true" duration-ms="26165" started-at="2020-08-10T10:27:18 IST" finished-at="2020-08-10T10:27:44 IST">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:com.Testlog4j.Test1@10bbd20a]" name="launchbrowser" is-config="true" duration-ms="56241" started-at="2020-09-18T16:49:04 IST" finished-at="2020-09-18T16:50:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchbrowser -->
-        <test-method status="PASS" signature="start()[pri:1, instance:com.Testlog4j.Test1@10bbd20a]" name="start" duration-ms="9396" started-at="2020-08-10T10:27:45 IST" finished-at="2020-08-10T10:27:54 IST">
+        <test-method status="PASS" signature="start()[pri:1, instance:com.Testlog4j.Test1@10bbd20a]" name="start" duration-ms="11723" started-at="2020-09-18T16:50:00 IST" finished-at="2020-09-18T16:50:12 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method status="PASS" signature="list()[pri:2, instance:com.Testlog4j.Test1@10bbd20a]" name="list" duration-ms="705" started-at="2020-08-10T10:27:54 IST" depends-on-methods="com.Testlog4j.Test1.start" finished-at="2020-08-10T10:27:55 IST">
+        <test-method status="PASS" signature="list()[pri:2, instance:com.Testlog4j.Test1@10bbd20a]" name="list" duration-ms="345" started-at="2020-09-18T16:50:12 IST" depends-on-methods="com.Testlog4j.Test1.start" finished-at="2020-09-18T16:50:12 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- list -->
       </class> <!-- com.Testlog4j.Test1 -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

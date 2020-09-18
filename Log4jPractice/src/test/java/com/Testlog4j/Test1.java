@@ -8,12 +8,20 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-
+/**
+ * Its a Logger Structure Program
+ * @author Vijay
+ *
+ */
 public class Test1
 {
+	/**
+	 * its very important to logger class for creating the logs
+	 */
 private static	Logger log = Logger.getLogger(Test1.class);
 	public WebDriver driver ;
 	
@@ -26,7 +34,7 @@ private static	Logger log = Logger.getLogger(Test1.class);
 	public void launchbrowser()
 	{
 		log.info("Browser Lauch");
-		driver= new ChromeDriver();
+		driver= new FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
 		driver.get("http://www.google.com");
